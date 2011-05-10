@@ -71,6 +71,14 @@
     <Compile Include="AssertComparer.cs" />
     <Compile Include="BehaviorsAttribute.cs" />
     <Compile Include="Catch.cs" />
+    <Compile Include="Comparisons\CompareEquatable.cs" />
+    <Compile Include="Comparisons\CompareGenericComparable.cs" />
+    <Compile Include="Comparisons\CompareNonGenericComparable.cs" />
+    <Compile Include="Comparisons\CompareNulls.cs" />
+    <Compile Include="Comparisons\CompareSimpleObjects.cs" />
+    <Compile Include="Comparisons\ComparerEnumerable.cs" />
+    <Compile Include="Comparisons\CompareTypes.cs" />
+    <Compile Include="Comparisons\ComposableComparer.cs" />
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="Factories\BehaviorFactory.cs" />
     <Compile Include="Factories\ITagExtractor.cs" />
